@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О музее</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="index.html" class="logo">
+                <img src="image/logo.png" alt="Логотип музея">
+            </a>
+            <div class="header-right">
+                <nav class="main-nav">
+                    <a href="about.html">музей</a>
+                    <a href="afisha.html">афиша</a>
+                    <a href="store.html">магазин</a>
+                </nav>
+                <div class="burger-button" id="burgerButton">
+                    <img src="image/burger-icon.svg" alt="Burger Menu">
+                </div>
+                <div class="search-icon" id="searchIcon">
+                    <img src="image/search-icon.svg" alt="Поиск">
+                </div>
+                <div class="search-field" id="searchField">
+                    <img src="image/search-loupe.svg" alt="Лупа" class="search-loupe">
+                    <input type="text" placeholder="Поиск по названию">
+                    <a href="#" class="search-arrow">
+                        <img src="image/search-arrow.svg" alt="Стрелка ввода">
+                    </a>
+                </div>
+                <a href="#" class="tickets-button">
+                    <span>БИЛЕТЫ</span>
+                    <img src="image/arrow-icon.svg" alt="Стрелка">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Изображение под header -->
+    <div class="about-museum-hero">
+        <img src="image/about-museum-hero.jpg" alt="Изображение музея">
+    </div>
+
+    <!-- Блок "О МУЗЕЕ" -->
+    <div class="content-wrapper">
+        <div class="about-museum-section">
+            <h2 class="about-museum-title">О МУЗЕЕ</h2>
+            <div class="about-museum-text">
+                <div class="text-block">
+                    <p>Добро пожаловать в Музей “0.10”!<br>Наш музей – это уникальное место, где можно окунуться в мир абстрактного искусства.<br>Мы собрали одну из самых больших коллекций абстрактных работ в мире. В нашем музее можно найти произведения, выполненные в совершенно разных и необычных техниках. Наши экспонаты представляют различные страны и временные периоды – от раннего 20 века до современности.</p>
+                </div>
+                <div class="text-block">
+                    <p>Музей абстракционизма “0.10” – это не только коллекция картин и скульптур, но и место для образования и развития. Мы предлагаем экскурсии, лекции, мастер-классы и другие мероприятия, которые подойдут для всех возрастов и уровней знания.<br>В музее “0.10” проходят различные события, список которых постоянно обновляются. Здесь каждый сможет найти интересную для себя тему и познакомиться с абстракционизмом.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок "КОЛЛЕКЦИЯ МУЗЕЯ" -->
+        <div class="museum-collection-section">
+            <h2 class="museum-collection-title">КОЛЛЕКЦИЯ МУЗЕЯ</h2>
+            <div class="slider" id="collectionSlider">
+                <!-- Слайд 1 -->
+                <a href="#" class="slider-item">
+                    <div class="slider-image">
+                        <img src="image/about-slide1.jpg" alt="Современные художники">
+                    </div>
+                    <h3 class="slider-item-title slider-item-title-mobile">СОВРЕМЕННЫЕ ХУДОЖНИКИ</h3>
+                </a>
+                <!-- Слайд 2 -->
+                <a href="#" class="slider-item">
+                    <div class="slider-image">
+                        <img src="image/about-slide2.jpg" alt="Абстракция в звездном небе">
+                    </div>
+                    <h3 class="slider-item-title slider-item-title-mobile">АБСТРАКЦИЯ В ЗВЕЗДНОМ НЕБЕ</h3>
+                </a>
+                <!-- Слайд 3 -->
+                <a href="#" class="slider-item">
+                    <div class="slider-image">
+                        <img src="image/about-slide3.png" alt="Творчество Казимира Малевича">
+                    </div>
+                    <h3 class="slider-item-title slider-item-title-mobile">ТВОРЧЕСТВО КАЗИМИРА МАЛЕВИЧА</h3>
+                </a>
+                <!-- Слайд 4 -->
+                <a href="#" class="slider-item">
+                    <div class="slider-image">
+                        <img src="image/about-slide4.jpg" alt="Пространство в абстракции">
+                    </div>
+                    <h3 class="slider-item-title slider-item-title-mobile">ПРОСТРАНСТВО В АБСТРАКЦИИ</h3>
+                </a>
+            </div>
+            <div class="collection-button">
+                <div class="visit-button">вся коллекция</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <a href="index.html">главная</a>
+                    <a href="afisha.html">афиша</a>
+                    <a href="#">выставки</a>
+                    <a href="store.html">магазин</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="about.html">о музее</a>
+                    <a href="#">билеты</a>
+                    <a href="#">коллекция</a>
+                    <a href="contacts.html">контакты</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="subscribe">
+                    <h3>Будьте в курсе событий</h3>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Почта">
+                        <button type="submit">подписаться</button>
+                    </div>
+                </div>
+                <div class="social-networks">
+                    <h3>Мы в социальных сетях</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="image/social1.svg" alt="Social_1"></a>
+                        <a href="#"><img src="image/social2.svg" alt="Social_2"></a>
+                        <a href="#"><img src="image/social3.svg" alt="Social_3"></a>
+                        <a href="#"><img src="image/social4.svg" alt="Social_4"></a>
+                        <a href="#"><img src="image/social5.svg" alt="Social_5"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Бургер-меню -->
+    <div class="burger-menu" id="burgerMenu">
+        <nav class="burger-nav">
+            <div class="burger-column">
+                <a href="index.html">главная</a>
+                <a href="afisha.html">афиша</a>
+                <a href="#">выставки</a>
+                <a href="store.html">магазин</a>
+            </div>
+            <div class="burger-column">
+                <a href="about.html">о музее</a>
+                <a href="#">билеты</a>
+                <a href="#">коллекции</a>
+                <a href="contacts.html">контакты</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Затемнение фона -->
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

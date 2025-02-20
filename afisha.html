@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Афиша</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="index.html" class="logo">
+                <img src="image/logo.png" alt="Логотип музея">
+            </a>
+            <div class="header-right">
+                <nav class="main-nav">
+                    <a href="about.html">музей</a>
+                    <a href="afisha.html">афиша</a>
+                    <a href="store.html">магазин</a>
+                </nav>
+                <div class="burger-button" id="burgerButton">
+                    <img src="image/burger-icon.svg" alt="Burger Menu">
+                </div>
+                <div class="search-icon" id="searchIcon">
+                    <img src="image/search-icon.svg" alt="Поиск">
+                </div>
+                <div class="search-field" id="searchField">
+                    <img src="image/search-loupe.svg" alt="Лупа" class="search-loupe">
+                    <input type="text" placeholder="Поиск по названию">
+                    <a href="#" class="search-arrow">
+                        <img src="image/search-arrow.svg" alt="Стрелка ввода">
+                    </a>
+                </div>
+                <a href="#" class="tickets-button">
+                    <span>БИЛЕТЫ</span>
+                    <img src="image/arrow-icon.svg" alt="Стрелка">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Контент страницы -->
+    <div class="content-wrapper">
+        <!-- Заголовок страницы -->
+        <div class="page-title">
+            <h1>АФИША</h1>
+            <div class="anchor-links">
+                <a href="#permanent">постоянные</a>
+                <a href="#current">текущие</a>
+                <a href="#upcoming">ближайшие</a>
+            </div>
+        </div>
+
+        <!-- Блок "ПОСТОЯННЫЕ" -->
+        <div class="exhibition-section" id="permanent">
+            <h2>ПОСТОЯННЫЕ</h2>
+            <div class="afisha-slider">
+                <!-- Слайд 1 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide1.png" alt="Искусство Хильмы аф Клинт">
+                        <div class="afisha-slider-text" style="background-color: #61A8EA;">
+                            <h3>ИСКУССТВО ХИЛЬМЫ АФ КЛИНТ</h3>
+                            <p>Зал 2</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 2 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide2.png" alt="Абстракционизм ХХI века">
+                        <div class="afisha-slider-text" style="background-color: #D4B590;">
+                            <h3>АБСТРАКЦИОНИЗМ ХХI ВЕКА</h3>
+                            <p>Зал 3</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 3 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide3.png" alt="Русский абстракционизм">
+                        <div class="afisha-slider-text" style="background-color: #D76747;">
+                            <h3>РУССКИЙ АБСТРАКЦИОНИЗМ</h3>
+                            <p>Зал 5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Блок "ТЕКУЩИЕ" -->
+        <div class="exhibition-section" id="current">
+            <h2>ТЕКУЩИЕ</h2>
+            <div class="afisha-slider">
+                <!-- Слайд 1 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide4.png" alt="Творчество Николя де Сталя">
+                        <div class="afisha-slider-text" style="background-color: #117D68;">
+                            <h3>ТВОРЧЕСТВО НИКОЛЯ ДЕ СТАЛЯ</h3>
+                            <p>Зал 1</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 2 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide5.png" alt="Загадочные работы Хуана Миро">
+                        <div class="afisha-slider-text" style="background-color: #3D5FE6;">
+                            <h3>ЗАГАДОЧНЫЕ РАБОТЫ ХУАН МИРО</h3>
+                            <p>Зал 4</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 3 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide6.png" alt="Картины Василия Кандинского">
+                        <div class="afisha-slider-text" style="background-color: #FB6C95;">
+                            <h3>КАРТИНЫ ВАСИЛИЯ КАНДИНСКОГО</h3>
+                            <p>Зал 7</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Блок "БЛИЖАЙШИЕ" -->
+        <div class="exhibition-section" id="upcoming">
+            <h2>БЛИЖАЙШИЕ</h2>
+            <div class="afisha-slider">
+                <!-- Слайд 1 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide7.png" alt="Абстракционизм Марка Ротко">
+                        <div class="afisha-slider-text" style="background-color: #EE6024;">
+                            <h3>АБСТРАКЦИОНИЗМ МАРКА РОТКО</h3>
+                            <p>18 ИЮНЯ</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 2 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide8.png" alt="Художник Юрий Злотников">
+                        <div class="afisha-slider-text" style="background-color: #FB6C95;">
+                            <h3>ХУДОЖНИК ЮРИЙ ЗЛОТНИКОВ</h3>
+                            <p>19 ИЮЛЯ</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Слайд 3 -->
+                <a href="#" class="afisha-slider-item">
+                    <div class="afisha-slider-image">
+                        <img src="image/afisha-slide9.png" alt="Французский абстракционизм">
+                        <div class="afisha-slider-text" style="background-color: #117D68;">
+                            <h3>ФРАНЦУЗСКИЙ АБСТРАКЦИОНИЗМ</h3>
+                            <p>17 АВГУСТА</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <a href="index.html">главная</a>
+                    <a href="afisha.html">афиша</a>
+                    <a href="#">выставки</a>
+                    <a href="store.html">магазин</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="about.html">о музее</a>
+                    <a href="#">билеты</a>
+                    <a href="#">коллекция</a>
+                    <a href="contacts.html">контакты</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="subscribe">
+                    <h3>Будьте в курсе событий</h3>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Почта">
+                        <button type="submit">подписаться</button>
+                    </div>
+                </div>
+                <div class="social-networks">
+                    <h3>Мы в социальных сетях</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="image/social1.svg" alt="Social_1"></a>
+                        <a href="#"><img src="image/social2.svg" alt="Social_2"></a>
+                        <a href="#"><img src="image/social3.svg" alt="Social_3"></a>
+                        <a href="#"><img src="image/social4.svg" alt="Social_4"></a>
+                        <a href="#"><img src="image/social5.svg" alt="Social_5"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Бургер-меню -->
+    <div class="burger-menu" id="burgerMenu">
+        <nav class="burger-nav">
+            <div class="burger-column">
+                <a href="index.html">главная</a>
+                <a href="afisha.html">афиша</a>
+                <a href="#">выставки</a>
+                <a href="store.html">магазин</a>
+            </div>
+            <div class="burger-column">
+                <a href="about.html">о музее</a>
+                <a href="#">билеты</a>
+                <a href="#">коллекции</a>
+                <a href="contacts.html">контакты</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Затемнение фона -->
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
