@@ -151,7 +151,7 @@ body {
 .hero {
     width: 100%;
     height: 600px;
-    background-image: url('image/hero-bg.png');
+    background-image: url('image/hero-bg.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1058,7 +1058,7 @@ footer {
 
     .hero {
         height: 375px;
-        background-image: url('image/hero-bg-mobile.png');
+        background-image: url('image/hero-bg-mobile.webp');
         padding-top: 45px;
         display: block;
     }
@@ -1267,7 +1267,7 @@ footer {
 
     .about-museum-hero {
         height: 375px;
-        background-image: url('image/about-museum-hero.jpg');
+        background-image: url('image/about-museum-hero.webp');
         background-size: cover;
         background-position: center;
         margin-bottom: 45px;
